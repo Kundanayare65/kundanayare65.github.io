@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: #fff; -webkit-font-smoothing: antialiased; }
+* { box-sizing: border-box; }
+::selection { background: rgba(99, 102, 241, .16); }
+
+.gradient-text {
+  background: linear-gradient(90deg, #a855f7 0%, #4f7cff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-glow {
+  background:
+    radial-gradient(circle at 70% 20%, rgba(99,102,241,.13), transparent 28%),
+    radial-gradient(circle at 92% 28%, rgba(217,70,239,.10), transparent 20%),
+    linear-gradient(to bottom, rgba(248,250,252,.65), transparent 75%);
+}
+
+.dot-pattern {
+  background-image: radial-gradient(rgba(99,102,241,.18) 1px, transparent 1px);
+  background-size: 10px 10px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
