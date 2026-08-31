@@ -37,7 +37,7 @@ export default function Navbar() {
         </div>
 
         <a
-          href="/resume.pdf"
+          href="/Kundan_Ayare_Resume.pdf"
           className="hidden items-center gap-2 rounded-lg bg-gradient-to-r from-indigo-500 to-blue-500 px-5 py-3 text-[13px] font-semibold text-white shadow-md shadow-indigo-100 transition hover:-translate-y-0.5 hover:shadow-lg md:flex"
         >
           <Download size={15} />
