@@ -1,9 +1,9 @@
-import { Cloud, Code2, Monitor, Wrench } from "lucide-react";
+import { Cloud, Code2, LineChart, Monitor, Wrench } from "lucide-react";
 import Reveal from "../components/Reveal";
 import SectionHeading from "../components/SectionHeading";
 import { skills } from "../data/portfolio";
 
-const icons = { code: Code2, monitor: Monitor, cloud: Cloud, tools: Wrench };
+const icons = { code: Code2, monitor: Monitor, cloud: Cloud, chart: LineChart, tools: Wrench };
 
 export default function Skills() {
   return (
