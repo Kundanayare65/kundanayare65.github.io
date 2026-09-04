@@ -1,6 +1,6 @@
 import { Download } from "lucide-react";
 import { useState } from "react";
-import { navItems } from "../data/portfolio";
+import { navItems, resumeUrl } from "../data/portfolio";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -37,7 +37,8 @@ export default function Navbar() {
         </div>
 
         <a
-          href="/Kundan_Ayare_Resume.pdf"
+          href={resumeUrl}
+          download="Kundan_Ayare_Resume.pdf"
           className="hidden items-center gap-2 rounded-lg bg-gradient-to-r from-indigo-500 to-blue-500 px-5 py-3 text-[13px] font-semibold text-white shadow-md shadow-indigo-100 transition hover:-translate-y-0.5 hover:shadow-lg md:flex"
         >
           <Download size={15} />

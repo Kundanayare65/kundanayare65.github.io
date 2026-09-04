@@ -7,6 +7,8 @@ export const navItems = [
   { label: "Contact", href: "#contact" },
 ];
 
+export const resumeUrl = "/Kundan_Ayare_Resume.pdf?v=54634b4";
+
 export const projects = [
   {
     title: "AstraForge",
