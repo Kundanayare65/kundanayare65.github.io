@@ -7,7 +7,7 @@ export const navItems = [
   { label: "Contact", href: "#contact" },
 ];
 
-export const resumeUrl = "/Kundan_Ayare_Resume.pdf?v=a7be7a6";
+export const resumeUrl = "/Kundan_resume.pdf?v=current";
 
 export const projects = [
   {

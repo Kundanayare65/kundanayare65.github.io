@@ -80,7 +80,7 @@ export default function Hero() {
               <a href="#projects" className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-indigo-500 to-fuchsia-500 px-5 py-3 text-[13px] font-semibold text-white shadow-lg shadow-indigo-100 transition hover:-translate-y-0.5">
                 Explore My Work <ArrowRight size={15} />
               </a>
-              <a href={resumeUrl} download="Kundan_Ayare_Resume.pdf" className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-5 py-3 text-[13px] font-semibold text-slate-800 transition hover:border-indigo-300 hover:bg-indigo-50/40">
+              <a href={resumeUrl} download="Kundan_resume.pdf" className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-5 py-3 text-[13px] font-semibold text-slate-800 transition hover:border-indigo-300 hover:bg-indigo-50/40">
                 Download Resume <Download size={15} />
               </a>
             </div>
