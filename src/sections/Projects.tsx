@@ -11,7 +11,7 @@ export default function Projects() {
         <SectionHeading
           eyebrow="Selected Work"
           title="Things I've Built."
-          action={<a href="https://github.com/" className="hidden items-center gap-2 rounded-lg border border-slate-300 px-4 py-2.5 text-[11px] font-medium md:flex">View More on GitHub <ArrowRight size={14} /></a>}
+          action={<a href="https://github.com/Kundanayare65" className="hidden items-center gap-2 rounded-lg border border-slate-300 px-4 py-2.5 text-[11px] font-medium md:flex">View More on GitHub <ArrowRight size={14} /></a>}
         />
       </Reveal>
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">

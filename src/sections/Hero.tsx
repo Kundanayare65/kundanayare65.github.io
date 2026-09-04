@@ -70,10 +70,10 @@ export default function Hero() {
               Kundan Ayare<span className="text-indigo-500">.</span>
             </h1>
             <p className="mt-4 text-[21px] font-medium tracking-[-0.02em]">
-              <span className="gradient-text">Software Engineer</span> building scalable systems.
+              <span className="gradient-text">DevOps & ML Engineer</span> building scalable systems.
             </p>
             <p className="mt-5 max-w-[450px] text-[15px] leading-7 text-slate-500">
-              I build scalable software, explore systems, and turn ideas into real-world solutions.
+              I build cloud-native platforms, GitOps delivery pipelines, and data-driven solutions with a focus on reliable engineering.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a href="#projects" className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-indigo-500 to-fuchsia-500 px-5 py-3 text-[13px] font-semibold text-white shadow-lg shadow-indigo-100 transition hover:-translate-y-0.5">
@@ -85,9 +85,9 @@ export default function Hero() {
             </div>
             <div className="mt-7 flex w-fit overflow-hidden rounded-xl border border-slate-200 bg-white/80">
               {[
-                ["GitHub", Github, "https://github.com/"],
-                ["LinkedIn", Linkedin, "https://www.linkedin.com/"],
-                ["Email", Mail, "mailto:hello@example.com"],
+                ["GitHub", Github, "https://github.com/Kundanayare65"],
+                ["LinkedIn", Linkedin, "https://linkedin.com/in/kundan-ayare-77a024212/"],
+                ["Email", Mail, "mailto:kundanayare65@gmail.com"],
               ].map(([label, Icon, href]) => {
                 const I = Icon as typeof Github;
                 return <a key={label as string} href={href as string} aria-label={label as string} className="grid h-10 w-14 place-items-center border-r border-slate-200 last:border-0 text-slate-700 transition hover:bg-slate-50 hover:text-indigo-500"><I size={17} /></a>;
